@@ -18,7 +18,7 @@ module.exports = async function (context, req) {
         const headers = {
             "accept": "application/json",
             "content-type": "application/json",
-            "appKey": "e8wHh2tya84M88aReEpXCa5XTQf3xgo01aZG39k5"
+            "appKey": ${tmapapikey},
         };
 
         const response = await fetch(url, {
